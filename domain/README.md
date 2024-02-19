@@ -1,4 +1,4 @@
-## debts_domain_APP DOMAIN
+## DEBTS APP DOMAIN
 
 This layer is the center of the entire application; it implements business logic
 
