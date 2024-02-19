@@ -1,23 +1,28 @@
+import 'package:collection/collection.dart';
 import 'package:copy_with_extension/copy_with_extension.dart';
+import 'package:debts/src/models/common/id_name_model.dart';
 import 'package:debts/src/models/outlay/outlay_model.dart';
-import 'package:debts/src/models/user/deal_participant_model.dart';
-import 'package:equatable/equatable.dart';
+import 'package:debts/src/models/user/deal_user_model.dart';
 
 part 'deal_model.g.dart';
 
 @CopyWith()
-final class DealModel extends Equatable {
+final class DealModel extends IdNameModel {
   const DealModel({
-    required this.id,
-    required this.name,
+    required super.id,
+    required super.name,
     required this.participants,
     required this.outlays,
   });
 
-  final String id;
-  final String name;
-  final List<DealParticipantModel> participants;
+  final List<DealUserModel> participants;
   final List<OutlayModel> outlays;
+
+  double get totalOutlay => outlays.map((o) => o.count * o.sum).sum;
+
+  double get totalPaid => participants.map((o) => o.paid).sum;
+
+  bool get correctData => totalOutlay == totalPaid;
 
   @override
   List<Object?> get props => [

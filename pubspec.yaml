@@ -12,6 +12,7 @@ dependencies:
   collection:
   equatable:
   copy_with_extension:
+  chalkdart: 2.2.1
 
 dev_dependencies:
   lints: ^2.1.0

@@ -11,7 +11,7 @@ abstract class _$DealModelCWProxy {
 
   DealModel name(String name);
 
-  DealModel participants(List<DealParticipantModel> participants);
+  DealModel participants(List<DealUserModel> participants);
 
   DealModel outlays(List<OutlayModel> outlays);
 
@@ -24,7 +24,7 @@ abstract class _$DealModelCWProxy {
   DealModel call({
     String? id,
     String? name,
-    List<DealParticipantModel>? participants,
+    List<DealUserModel>? participants,
     List<OutlayModel>? outlays,
   });
 }
@@ -42,7 +42,7 @@ class _$DealModelCWProxyImpl implements _$DealModelCWProxy {
   DealModel name(String name) => this(name: name);
 
   @override
-  DealModel participants(List<DealParticipantModel> participants) =>
+  DealModel participants(List<DealUserModel> participants) =>
       this(participants: participants);
 
   @override
@@ -75,7 +75,7 @@ class _$DealModelCWProxyImpl implements _$DealModelCWProxy {
           participants == const $CopyWithPlaceholder() || participants == null
               ? _value.participants
               // ignore: cast_nullable_to_non_nullable
-              : participants as List<DealParticipantModel>,
+              : participants as List<DealUserModel>,
       outlays: outlays == const $CopyWithPlaceholder() || outlays == null
           ? _value.outlays
           // ignore: cast_nullable_to_non_nullable

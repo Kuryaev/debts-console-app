@@ -1,20 +1,18 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
-import 'package:equatable/equatable.dart';
+import 'package:debts/src/models/user/user_model.dart';
 
-part 'deal_participant_model.g.dart';
+part 'deal_user_model.g.dart';
 
 @CopyWith()
-final class DealParticipantModel extends Equatable {
-  const DealParticipantModel({
-    required this.name,
-    required this.id,
+final class DealUserModel extends UserModel {
+  const DealUserModel({
+    required super.name,
+    required super.id,
     this.paid = 0,
     this.payerId,
   });
 
-  final String id;
-  final String name;
-  final int paid;
+  final double paid;
   final String? payerId;
 
   bool get havePair => payerId != null;

@@ -9,9 +9,9 @@ part of 'outlay_model.dart';
 abstract class _$OutlayModelCWProxy {
   OutlayModel id(String id);
 
-  OutlayModel userIds(List<String> userIds);
-
   OutlayModel name(String name);
+
+  OutlayModel userIds(List<String> userIds);
 
   OutlayModel sum(double sum);
 
@@ -25,8 +25,8 @@ abstract class _$OutlayModelCWProxy {
   /// ````
   OutlayModel call({
     String? id,
-    List<String>? userIds,
     String? name,
+    List<String>? userIds,
     double? sum,
     int? count,
   });
@@ -42,10 +42,10 @@ class _$OutlayModelCWProxyImpl implements _$OutlayModelCWProxy {
   OutlayModel id(String id) => this(id: id);
 
   @override
-  OutlayModel userIds(List<String> userIds) => this(userIds: userIds);
+  OutlayModel name(String name) => this(name: name);
 
   @override
-  OutlayModel name(String name) => this(name: name);
+  OutlayModel userIds(List<String> userIds) => this(userIds: userIds);
 
   @override
   OutlayModel sum(double sum) => this(sum: sum);
@@ -63,8 +63,8 @@ class _$OutlayModelCWProxyImpl implements _$OutlayModelCWProxy {
   /// ````
   OutlayModel call({
     Object? id = const $CopyWithPlaceholder(),
-    Object? userIds = const $CopyWithPlaceholder(),
     Object? name = const $CopyWithPlaceholder(),
+    Object? userIds = const $CopyWithPlaceholder(),
     Object? sum = const $CopyWithPlaceholder(),
     Object? count = const $CopyWithPlaceholder(),
   }) {
@@ -73,14 +73,14 @@ class _$OutlayModelCWProxyImpl implements _$OutlayModelCWProxy {
           ? _value.id
           // ignore: cast_nullable_to_non_nullable
           : id as String,
-      userIds: userIds == const $CopyWithPlaceholder() || userIds == null
-          ? _value.userIds
-          // ignore: cast_nullable_to_non_nullable
-          : userIds as List<String>,
       name: name == const $CopyWithPlaceholder() || name == null
           ? _value.name
           // ignore: cast_nullable_to_non_nullable
           : name as String,
+      userIds: userIds == const $CopyWithPlaceholder() || userIds == null
+          ? _value.userIds
+          // ignore: cast_nullable_to_non_nullable
+          : userIds as List<String>,
       sum: sum == const $CopyWithPlaceholder() || sum == null
           ? _value.sum
           // ignore: cast_nullable_to_non_nullable
