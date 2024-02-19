@@ -1,28 +1,17 @@
+# An example of building a simple application built on a clean architecture
+
+## debts_domain_APP
+
+The purpose of the "debs_app" program is to quickly
+generate reports for convenient distribution of funds between people.
+For example, you can take a friendly meeting in a cafe or hookah bar.
+Everyone paid differently for different services;
+in order to structure and calculate who owes whom how much,
+you can use the "debts_domain_app" application
+
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Currently the program contains the following features:
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information for develop
-
-### Generate
-For code-generation use commands
-
-Models generation, run `dart run build_runner build --build-filter lib/src/models/**.dart`
-
-
-
-
+* Creating "deals"
+* Generating "deals" reports

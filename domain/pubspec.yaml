@@ -1,0 +1,23 @@
+name: debts_domain
+description: "Application for calculating the cost of debts_domain"
+repository: "https://github.com/Kuryaev/debs-app"
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.2.2
+
+# Add regular dependencies here.
+dependencies:
+  uuid:
+  collection: 1.18.0
+  equatable: 2.0.5
+  copy_with_extension: 5.0.4
+  chalkdart: 2.2.1
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+  build_runner:
+  flutter_lints: ^2.0.0
+  copy_with_extension_gen: 5.0.4
