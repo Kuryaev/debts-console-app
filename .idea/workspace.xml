@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dba724b-c16e-4aee-b097-c1f8a2506b02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/debts-console-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_options.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_options.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/querylab/asd/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/console/example1_main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/console/report_console.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/debts_domain.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/common/id_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/common/id_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/common/id_name_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/common/id_name_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/deal/deal_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/deal/deal_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/outlay/outlay_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/outlay/outlay_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_check_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_check_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_debt_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_debt_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_item_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_item_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/report/report_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/user/deal_user_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/user/deal_user_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/user/user_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/models/user/user_model.g.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/lib/src/useCases/report_useCase.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/test/report_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dSPQ2ZbzP3u45iRj2QG6MaoLk2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/dist/dart-sdk",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager" selected="Dart Command Line App.example1_main.dart">
+    <configuration name="example1_main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/console/example1_main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in debts-console-app" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$" />
+      <option name="scope" value="FOLDER" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.example1_main.dart" />
+        <item itemvalue="Dart Test.Tests in debts-console-app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dba724b-c16e-4aee-b097-c1f8a2506b02" name="Changes" comment="" />
+      <created>1709998486624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709998486624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
